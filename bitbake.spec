@@ -2,7 +2,7 @@
 
 Summary: A tool for executing tasks and managing metadata 
 Name: bitbake
-Version: 1.8.0
+Version: 1.8.2
 Release: %mkrel %rel
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
