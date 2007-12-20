@@ -8,6 +8,7 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Development/Other
 Url: http://bitbake.berlios.de/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: python
 BuildRequires: python-devel
