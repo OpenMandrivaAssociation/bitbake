@@ -1,4 +1,4 @@
-%define rel 2
+%define rel 3
 
 Summary: A tool for executing tasks and managing metadata 
 Name: bitbake
