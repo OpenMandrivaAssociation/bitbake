@@ -1,8 +1,8 @@
-%define rel 3
+%define rel 1
 
 Summary: A tool for executing tasks and managing metadata 
 Name: bitbake
-Version: 1.8.10
+Version: 1.8.12
 Release: %mkrel %rel
 Source0: %{name}-%{version}.tar.gz
 License: GPL
