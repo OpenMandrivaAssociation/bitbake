@@ -9,6 +9,7 @@ Url: http://bitbake.berlios.de/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: python
+BuildRequires:	libxml2-utils
 BuildRequires:	python-ply
 BuildRequires:	python-devel
 BuildRequires:	xsltproc
