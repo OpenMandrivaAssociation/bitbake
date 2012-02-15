@@ -1,12 +1,11 @@
 Summary: A tool for executing tasks and managing metadata 
 Name: bitbake
-Version: 1.12.0
-Release: %mkrel 1
-Source0: http://download.berlios.de/%{name}/%{name}-%{version}.tar.gz
+Version: 1.15.1
+Release: 1
+Source0: http://git.openembedded.org/bitbake/snapshot/%{name}-%{version}.tar.gz
 License: GPL
 Group: Development/Other
 Url: http://bitbake.berlios.de/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: python
 BuildRequires:	libxml2-utils
@@ -29,14 +28,9 @@ Linux distributions, including OpenZaurus and Familiar.
 %__python setup.py build
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %__python setup.py install --root=%{buildroot}
 
-%clean
-rm -rf %{buildroot}
-
 %files 
-%defattr(-,root,root)
 %doc AUTHORS ChangeLog 
 %doc contrib
 %doc %{_docdir}/%{name}-%{version}
@@ -44,4 +38,5 @@ rm -rf %{buildroot}
 %_datadir/%name/
 %py_puresitedir/codegen.py
 %py_puresitedir/bb/
+%py_puresitedir/prserv/
 %py_puresitedir/*.egg-info
