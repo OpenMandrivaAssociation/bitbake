@@ -1,6 +1,6 @@
 Summary: A tool for executing tasks and managing metadata 
 Name: bitbake
-Version: 1.15.1
+Version: 1.15.2
 Release: 1
 Source0: http://git.openembedded.org/bitbake/snapshot/%{name}-%{version}.tar.gz
 License: GPL
