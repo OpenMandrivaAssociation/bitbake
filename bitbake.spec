@@ -5,7 +5,7 @@ Release: %mkrel 1
 Source0: http://download.berlios.de/%{name}/%{name}-%{version}.tar.gz
 License: GPL
 Group: Development/Other
-Url: http://bitbake.berlios.de/
+Url: http://www.openembedded.org/wiki/BitBake
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 Requires: python
