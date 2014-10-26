@@ -2,7 +2,7 @@ Summary:	A tool for executing tasks and managing metadata
 Name:		bitbake
 Version:	1.12.0
 Release:	1
-Source0:	http://download.berlios.de/%{name}/%{name}-%{version}.tar.gz
+Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Other
 Url:		http://www.openembedded.org/wiki/BitBake
