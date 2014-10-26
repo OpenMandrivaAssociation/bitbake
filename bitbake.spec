@@ -1,7 +1,8 @@
 Summary:	A tool for executing tasks and managing metadata 
 Name:		bitbake
-Version:	1.12.0
+Version:	1.24.0
 Release:	1
+# from git://git.openembedded.org/bitbake
 Source0:	%{name}-%{version}.tar.gz
 License:	GPL
 Group:		Development/Other
@@ -38,4 +39,5 @@ python setup.py install --root=%{buildroot}
 %{_datadir}/%{name}/
 %{py_puresitedir}/codegen.py
 %{py_puresitedir}/bb/
+%{py_puresitedir}/prserv
 %{py_puresitedir}/*.egg-info
