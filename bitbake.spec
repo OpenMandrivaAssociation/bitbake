@@ -4,7 +4,7 @@ Version:	1.24.0
 Release:	1
 # from git://git.openembedded.org/bitbake
 Source0:	%{name}-%{version}.tar.gz
-License:	GPL
+License:	GPLv2+
 Group:		Development/Other
 Url:		http://www.openembedded.org/wiki/BitBake
 BuildArch:	noarch
