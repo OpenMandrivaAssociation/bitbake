@@ -15,12 +15,13 @@ BuildRequires:	python-devel
 BuildRequires:	xsltproc
 
 %description
-BitBake is, at its simplest, a tool for executing tasks and managing metadata. 
-As such, its similarities to GNU make and other build tools are readily 
-apparent. It was inspired by Portage, the package management system used 
-by the Gentoo Linux distribution. BitBake is the basis of the OpenEmbedded 
-project, which is being used to build and maintain a number of embedded 
-Linux distributions, including OpenZaurus and Familiar.
+BitBake is a make-like build tool with the special focus of distributions and
+packages for embedded Linux cross compilation although it is not limited to 
+that. It is derived from Portage, which is the package management system used 
+by the Gentoo Linux distribution. BitBake existed for some time in the 
+OpenEmbedded project until it was separated out into a standalone, maintained,
+distribution-independent tool. BitBake is co-maintained by the Yocto Project 
+and the OpenEmbedded project.
 
 %prep
 %setup -q
