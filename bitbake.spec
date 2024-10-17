@@ -6,7 +6,7 @@ Release:	2
 Source0:	%{name}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Development/Other
-Url:		http://www.openembedded.org/wiki/BitBake
+Url:		https://www.openembedded.org/wiki/BitBake
 BuildArch:	noarch
 Requires:	python
 BuildRequires:	libxml2-utils
